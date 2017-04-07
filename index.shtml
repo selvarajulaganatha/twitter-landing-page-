@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>F22labs - Test</title>
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- /header start-->
+    <header id="header" class="">
+        <div class="container">
+            <nav class="pull-left">
+                <ul class="clearfix">
+                    <li>
+                        <a href="" title="" class="active">
+                            <i class="fa fa-home" aria-hidden="true"></i> home
+                            <span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <i class="fa fa-bell" aria-hidden="true"></i> Notifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <i class="fa fa-comment" aria-hidden="true"></i> Messages
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-right pull-right">
+                <div class="global-search pull-left">
+                    <input type="text" name="" value="" placeholder="Search Twitter" class="input-search ">
+                    <button type="submit" class="search-buttons"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <a href="#" title="" class="pull-left profile-img">
+                    <img src="img/profile.jpg" alt="">
+                </a>
+                <a href="#" title="" class="tweet-button">
+                    <i class="fa fa-angellist" aria-hidden="true"></i> Tweet
+                </a>
+            </div>
+        </div>
+        <a href="#" title="" class="logo">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+    </header>
+    <!-- /header -->
+    <div class="page-wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="tweetcount-section">
+                        <div class="profile-section">
+                            <div class="profile-bg-img">
+                            </div>
+                        </div>
+                        <div class="profilename-section">
+                            <div class="clearfix">
+                                <a href="#" title="" class="profileimg-left pull-left">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <a href="#" title="" class="pull-left profile-name">
+                                    <span>Selvaraj U</span>
+                                    <span class="small-name">@selveraj</span>
+                                </a>
+                            </div>
+                            <div class="profile-count">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="#" title="">
+                                            <span class="profile-lable">Tweets</span>
+                                            <span class="profile-value">465</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <span class="profile-lable">Following</span>
+                                            <span class="profile-value">88</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <span class="profile-lable">Followers</span>
+                                            <span class="profile-value">121</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trends-section">
+                        <div class="trends-header">
+                            <h3>Trends</h3><span>.</span><a role="button" href="#">Change</a>
+                        </div>
+                        <ul class="clearfix trends-list">
+                            <li>
+                                <a href="#" title="">
+                                            #Lorem Ipsum
+                                            <span>5,151 Tweets</span>
+                                        </a>
+                            </li>
+                            <li>
+                                <a href="#" title="">
+                                            #Lorem Ipsum
+                                            <span>5,151 Tweets</span>
+                                        </a>
+                            </li>
+                            <li>
+                                <a href="#" title="">
+                                             #Lorem Ipsum
+                                        </a>
+                            </li>
+                            <li>
+                                <a href="#" title="">
+                                             #Lorem Ipsum
+                                            <span>5,151 Tweets</span>
+                                        </a>
+                            </li>
+                            <li>
+                                <a href="#" title="">
+                                            #Lorem Ipsum
+                                            <span>5,151 Tweets</span>
+                                        </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="post-type">
+                        <div class="post-inner">
+                            <img src="img/profile.jpg" alt="">
+                            <div class="post-input">
+                                <input type="text" name="" value="" placeholder="What's happening?">
+                                <button type="submit">
+                                    <i class="fa fa-camera" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-tweet">
+                        <div class="view-more">
+                            View 40 new Tweets
+                        </div>
+                        <div class="tweet-section">
+                            <a href="#" title="" class="tweet-refresh">
+                                <i class="fa fa-retweet" aria-hidden="true"></i> Lorem Ipsum is simply dummy text
+                            </a>
+                            <div class="tweet-list">
+                                <a href="#" title="" class="tweetpost-proimg">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <div class="tweet-right">
+                                    <div>
+                                        <strong>Lorem Ipsum</strong> ‏<span>@AWWWARDS</span> <span>.</span> <span>8h</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+                                    <div class="tweet-share">
+                                        <ul class="clearfix">
+                                            <li><a href="#" title=""><i class="fa fa-reply" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>234</a></li>
+                                            <li><a href="#" title=""><i class="fa fa-heart" aria-hidden="true"></i>569</a></li>
+                                            <li><a href="#" title=""><span></span><span></span><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet-section">
+                            <a href="#" title="" class="tweet-refresh">
+                                <i class="fa fa-retweet" aria-hidden="true"></i> Lorem Ipsum is simply dummy text
+                            </a>
+                            <div class="tweet-list">
+                                <a href="#" title="" class="tweetpost-proimg">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <div class="tweet-right">
+                                    <div>
+                                        <strong>Lorem Ipsum</strong> ‏<span>@AWWWARDS</span> <span>.</span> <span>8h</span>
+                                    </div>
+                                    <p class="short-description">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+                                     
+                                    <div class="sub-section">
+                                        <h3>Lorem Ipsum <span>@Lorem Ipsum</span></h3>
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                        </p>
+                                    </div>
+                                    <div class="tweet-share">
+                                        <ul class="clearfix">
+                                            <li><a href="#" title=""><i class="fa fa-reply" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>23</a></li>
+                                            <li><a href="#" title=""><i class="fa fa-heart" aria-hidden="true"></i>769</a></li>
+                                            <li><a href="#" title=""><span></span><span></span><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet-section">
+                            <div class="tweet-list">
+                                <a href="#" title="" class="tweetpost-proimg">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <div class="tweet-right">
+                                    <div>
+                                        <strong>Lorem Ipsum</strong> ‏<span>@AWWWARDS</span> <span>.</span> <span>8h</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+                                     <div class="tweet-share">
+                                        <ul class="clearfix">
+                                            <li><a href="#" title=""><i class="fa fa-reply" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>904</a></li>
+                                            <li><a href="#" title=""><i class="fa fa-heart" aria-hidden="true"></i>598</a></li>
+                                            <li><a href="#" title=""><span></span><span></span><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tweet-list connection-line">
+                                <a href="#" title="" class="tweetpost-proimg">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <div class="tweet-right">
+                                    <div>
+                                        <strong>Lorem Ipsum</strong> ‏<span>@AWWWARDS</span> <span>.</span> <span>8h</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+                                     <div class="tweet-share">
+                                        <ul class="clearfix">
+                                            <li><a href="#" title=""><i class="fa fa-reply" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>46</a></li>
+                                            <li><a href="#" title=""><i class="fa fa-heart" aria-hidden="true"></i>879</a></li>
+                                            <li><a href="#" title=""><span></span><span></span><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet-section">
+                            <a href="#" title="" class="tweet-refresh">
+                                <i class="fa fa-retweet" aria-hidden="true"></i> Lorem Ipsum is simply dummy text
+                            </a>
+                            <div class="tweet-list">
+                                <a href="#" title="" class="tweetpost-proimg">
+                                    <img src="img/profile-big.jpg" alt="">
+                                </a>
+                                <div class="tweet-right">
+                                    <div>
+                                        <strong>Lorem Ipsum</strong> ‏<span>@AWWWARDS</span> <span>.</span> <span>8h</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    </p>
+                                    <div class="sub-img">
+                                        <div class="sub-section-img">
+                                            <img src="img/seubsection-img.png" alt="">
+                                            <h3>Lorem Ipsum <span>@Lorem Ipsum</span></h3>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                            </p>
+                                        </div>
+                                    </div>
+                                     <div class="tweet-share">
+                                        <ul class="clearfix">
+                                            <li><a href="#" title=""><i class="fa fa-reply" aria-hidden="true"></i></a></li>
+                                            <li><a href="#" title=""><i class="fa fa-retweet" aria-hidden="true"></i>764</a></li>
+                                            <li><a href="#" title=""><i class="fa fa-heart" aria-hidden="true"></i>568</a></li>
+                                            <li><a href="#" title=""><span></span><span></span><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="who-follow-section">
+                        <div class="who-follow-header">
+                            <div class="who-follow-title">
+                                <h3>Who to follow</h3><span>.</span><a role="button" href="#" class="header-link">Refresh</a><span>.</span> <a role="button" href="#" class="header-link">View all</a>
+                            </div>
+                            <div class="follwer-list">
+                                <a href="#" title="">
+                                    <img src="img/profile-big.jpg" alt=""> <b>Lorem Ipsum </b><span>@Lorem</span>
+                                </a>
+                                <button>
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i> Follow
+                                </button>
+                                <a href="#" title="" class="follower-close">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="follwer-list">
+                                <a href="#" title="">
+                                    <img src="img/profile-big.jpg" alt=""> <b>Lorem Ipsum </b><span>@Lorem</span>
+                                </a>
+                                <button>
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i> Follow
+                                </button>
+                                <a href="#" title="" class="follower-close">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="follwer-list">
+                                <a href="#" title="">
+                                    <img src="img/profile-big.jpg" alt=""> <b>Lorem Ipsum </b><span>@Lorem</span>
+                                </a>
+                                <button>
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i> Follow
+                                </button>
+                                <a href="#" title="" class="follower-close">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="who-follow-footer">
+                            <div class="find-people">
+                                <div class="header-right ">
+                                    <div class="user-image">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="user-name">
+                                        <div class="header-arrow">
+                                            <h3>Find people you know</h3>
+                                        </div>
+                                        <span>Import your contacts from Gmail</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" title="" class="connect-other">Connect other address books</a>
+                        </div>
+                    </div>
+                    <div class="copyright-section">
+                        <div class="copyright-list">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="#" title="">© 2016 Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Help</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Privacy</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Cookies</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Ads info</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Brand</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""> Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Status</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Apps</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Jobs</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Businesses</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Media</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Developers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright-footer">
+                            <a href="#" title="">Advertise with Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/build/global.min.js"></script>
+</body>
+
+</html>

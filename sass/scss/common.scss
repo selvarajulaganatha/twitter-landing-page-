@@ -1,0 +1,25 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul { margin: 0; padding: 0; }
+html { background-color:  #F5F8FA; }
+body {	background-color: #F5F8FA; color: #646464; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; font-weight: 400; line-height: 20px; }
+input:focus, button:focus, select:focus, a:focus, a:focus img, textarea:focus, :focus { outline: none; }
+textarea { resize: none; }
+img { vertical-align: middle; /*max-width: 100%;*/ }
+a { color: #646464; text-decoration: none; transition: all 0.3s ease-in; }
+a:hover { color: #646464; }
+a, a:focus, a:hover { text-decoration: none; }
+ol, ul { list-style: none; }
+.clear { clear: both; }
+.fL { float: left; }
+.fR { float: right; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+p { padding-bottom: 15px; }
+p:last-child{padding-bottom: 0 !important;}
+.center-block { float: none !important; margin: 0 auto; }
+input[type="submit"] { background-color: transparent }
+.textBox { border: none; height: 50px; padding: 15px; width: 100%; }
+.container { margin: 0 auto; padding-left: 15px; padding-right: 15px; width: 1200px; }
+header .container, footer .container { width: 1200px; }
+@media (max-width:1200px) {
+	header .container, footer .container, .container { width: auto }
+}
